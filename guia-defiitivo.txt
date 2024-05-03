@@ -1,0 +1,33 @@
+1- instalar nestjs: npm i -g @nestjs/cli
+
+2- criar projeto em nestjs: nest new project-name
+
+3- criar docker-compose.yml 
+
+4- rodar no terminal do git docker-compose up -d obs(o docker tem que estar aberto)
+
+5- rodar no terminal do git npm start
+
+6- deixar apenas no projeto o app.module.ts e mais.ts
+
+7- tirar o que ta dentro das chaves do app.module.ts
+
+8-criar a pasta do crud(Para criar rapidamente um controlador CRUD com o validação built-in,
+ você pode usar o CLI gerador CRUD: nest g resource [name].)
+
+9-caso vc nao crie usando o codigo(
+- criar uma pasta para [name]
+
+- criar [name].controller.ts e copiar da documentação na controllers
+
+- criar [name].service.ts copiar da documentação providers 
+
+- criar pasta interfaces dentro da pasta [name]
+    criar [name].interface.ts e copiar da documentação providers)
+
+10-ir em documentação mongo e instalar a biblioteca : (TECHNIQUES: mongo)
+    npm i @nestjs/mongoose mongoose
+
+11-importar na app.module.ts : import { MongooseModule } from '@nestjs/mongoose';
+   na chave de imports[ MongooseModule.forRoot('mongodb://0.0.0.0:27017/mercado')]
+
