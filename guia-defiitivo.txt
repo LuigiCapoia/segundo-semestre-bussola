@@ -31,3 +31,8 @@
 11-importar na app.module.ts : import { MongooseModule } from '@nestjs/mongoose';
    na chave de imports[ MongooseModule.forRoot('mongodb://0.0.0.0:27017/mercado')]
 
+12-criar pasta schemas na pasta [name]
+
+13-criar [name].schema.ts e copiar da documentação mongo
+
+14-
